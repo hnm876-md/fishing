@@ -7,25 +7,20 @@
 <body>
     <header>
       <h1>会員登録完了</h1>
-      <div>登録日時：<p id="date"></p></div>
-      <p id="demo1"></p>
-      <p id="demo2"></p>
+      <h3>お客様情報</h3>
       <p id="demo3"></p>
       <p id="device"></p>
-    </header>
-    <div class="main">
-      <div class="timer">
-      <h1 id="sec"></h1>
-      </div>
-      <div>
         <script src="platform.js"></script>
         <script>
-          document.write(platform.name); //Firefox
+          document.write('ご利用環境：'　+ platform.name); //Firefox
           document.write(platform.version); //69.0
           document.write(platform.os.toString()); //OS X 10.14
           document.write(platform.layout); //Gecko
         </script>
-
+    </header>
+    <div class="main">
+      <div class="timer">
+        <h1 id="sec"></h1>
       </div>
     </div>
     <footer></footer>
