@@ -1,0 +1,14 @@
+body{
+  margin: 5px;
+}
+.main{
+  background-color: yellow;
+}
+.confirm{
+  text-align: center;
+  border: 1;
+}
+.roading{
+  width:48px;
+  height:auto;
+}
